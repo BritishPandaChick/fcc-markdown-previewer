@@ -1,36 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
 let marked = require('marked');
 
 const firstMarkdown = `
-### Headers
 # Header 1
-## Header 2
-
-### Lists
 - list item one
 - list item two
 
-### Links
 [Free Code Camp](https://freecodecamp.org)
 
 ### Text Decorations
 
 **bold**
 
-### Images
+## Header 2
 ![Cute Baby Panda](https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2018/babypandabor.jpg)
 
-### Blockquotes
 > To be, or not be. That is a stupid question.
 
-### Inline Code
 \`npm install create-react-app -g\`
 
-
-### Code Block
 \`\`\`
 function helloWorld() {
   console.log("Hello World");
@@ -38,13 +29,14 @@ function helloWorld() {
 \`\`\`
 `;
 
-var renderer = new marked.Renderer()
+//Link opens in new tab
+const renderer = new marked.Renderer()
 renderer.link = function(href, title, text) {
   return `<a href=${href} target="_blank">${text}</a>`
 }
 
 marked.setOptions({
-  breaks: true,
+  breaks: true, //interprets carriage returns as line breaks
   renderer: renderer
 });
 
@@ -63,10 +55,11 @@ class App extends React.Component {
     return (
       <div>
         <div className='container'>
-          <div className="left">
+          <div className="top">
             <textarea id="editor" value={this.state.markdown} onChange={this.handleChange}></textarea>
           </div>
-          <div className="right">
+
+          <div className="bottom">
             <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.markdown)}}></div>
           </div>
         </div>
