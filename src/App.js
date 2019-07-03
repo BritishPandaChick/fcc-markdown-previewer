@@ -4,7 +4,7 @@ import './App.css';
 
 let marked = require('marked');
 
-const firstMarkdown = `
+const defaultMarkdown = `
 # Header 1
 - list item one
 - list item two
@@ -45,7 +45,7 @@ class App extends React.Component {
     super(props)
 
     this.state = {
-      markdown: firstMarkdown
+      markdown: defaultMarkdown
     }
   }
 
