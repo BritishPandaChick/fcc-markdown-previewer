@@ -20,4 +20,5 @@ This repository is based on starter code from the create-react-app and Ben Brook
 * ReactJS
 * Marked.js
 * Bootstrap
-* Free Code Camp
+* freeCodeCamp
+* Florin Pop

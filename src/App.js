@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-
-let marked = require('marked');
+import marked from 'marked';
 
 const defaultMarkdown = `
 # Header 1
@@ -31,7 +30,7 @@ function helloWorld() {
 
 //Link opens in new tab
 const renderer = new marked.Renderer()
-renderer.link = function(href, title, text) {
+renderer.link = function (href, title, text) {
   return `<a href=${href} target="_blank">${text}</a>`
 }
 
@@ -41,7 +40,7 @@ marked.setOptions({
 });
 
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props)
 
     this.state = {
@@ -60,7 +59,7 @@ class App extends React.Component {
           </div>
 
           <div className="bottom">
-            <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.markdown)}}></div>
+            <div id="preview" dangerouslySetInnerHTML={{ __html: marked(this.state.markdown) }}></div>
           </div>
         </div>
       </div>
@@ -69,7 +68,7 @@ class App extends React.Component {
 }
 
 ReactDOM.render(
-  <App/>,
+  <App />,
   document.getElementById('root')
 );
 
