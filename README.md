@@ -16,9 +16,8 @@ This repository is based on starter code from the create-react-app and Ben Brook
 
 ## Acknowledgements
 * Dylan Israel
-* Ben Brooke
 * ReactJS
 * Marked.js
 * Bootstrap
 * freeCodeCamp
-* Florin Pop
+* K-dev
