@@ -8,24 +8,48 @@ body {
 /*== Header ==*/
 header {
   padding: 20px 40px;
+  background-color: #710627;
 }
 
 header h1 {
   font-size: 55px;
   font-family: "Lobster Two", cursive;
+  color: #fff;
 }
 
 header p {
   line-height: 32px;
   color: #333;
   font-size: 20px;
+  color: #fff;
 }
 
 /*== Editor ==*/
-#editor {
-  border: 2px solid red;
+.container {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.top,
+.bottom {
   width: 100%;
+  padding: 40px 0;
+}
+
+.bottom {
+  border: 1px solid;
+  overflow: auto;
+}
+
+#editor,
+#preview {
+  width: 100%;
+  padding: 10px;
   height: 100%;
+}
+
+#editor {
+  border: 2px solid #595457;
 }
 
 /*== Footer ==*/
