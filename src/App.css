@@ -1,44 +1,35 @@
-/* Header */
+/* === Base Styles ===*/
+body {
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*== Header ==*/
+header {
+  padding: 20px 40px;
+}
+
 header h1 {
   font-size: 55px;
+  font-family: "Lobster Two", cursive;
 }
 
-header h2 {
-  font-size: 40px;
-}
-
-p {
+header p {
+  line-height: 32px;
+  color: #333;
   font-size: 20px;
 }
 
-header h2, p {
-  padding: 15px 0;
-}
-
-/*  Editor and Previewer */
-.container {
-  display: grid;
-  grid-template-rows: 50% 50%;
-}
-
-.top, .bottom {
-  width: 100%;
-  padding: 40px 0;
-}
-
-.bottom {
-  border: 1px solid;
-  overflow: auto;
-}
-
-#editor, #preview {
+/*== Editor ==*/
+#editor {
+  border: 2px solid red;
   width: 100%;
   height: 100%;
-  padding: 10px;
 }
 
-/* Footer */
+/*== Footer ==*/
 footer {
-  padding: 35px;
+  padding: 5px;
   font-size: 16px;
 }
