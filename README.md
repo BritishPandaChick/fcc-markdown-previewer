@@ -9,10 +9,10 @@ freeCodecamp Front Libraries Project. Markdown Previewer project.
 * Bootstrap
 
 ## Instructions 
-Just type your text in the editor and will appear in the previewer.
+Clone this repo or download the zip file. Run ```npm start``` to start the app. Type your text in the editor and will appear in the previewer.
 
 ## Contributing
-This repository is based on starter code from the create-react-app and Ben Brooke's Markdown Previewer tutorial. Therefore I will not be accepting any pull requests.
+This repository is based on starter code from the create-react-app, Ben Brooke's Markdown Previewer tutorial, and K-dev's Markdown Previewer. Therefore I will not be accepting any pull requests.
 
 ## Acknowledgements
 * Dylan Israel
@@ -22,3 +22,4 @@ This repository is based on starter code from the create-react-app and Ben Brook
 * Marked.js
 * Bootstrap
 * freeCodeCamp
+ 
