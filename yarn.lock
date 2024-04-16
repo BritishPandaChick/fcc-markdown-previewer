@@ -7012,8 +7012,8 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
 
-postcss@^7.0.35:
-  version "7.0.39"
+postcss@^8.4.31:
+  version "8.4.31"
   resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.39.tgz"
   dependencies:
     picocolors "^0.2.1"
