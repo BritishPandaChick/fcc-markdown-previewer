@@ -5697,7 +5697,7 @@ json5@^2.2.2:
     minimist "^1.2.0"
 
 json5@^2.1.2, json5@^2.2.0, json5@^2.2.1:
-  version "2.2.1"
+  version "2.2.2"
   resolved "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
 
 jsonfile@^4.0.0:
