@@ -2681,7 +2681,7 @@ brace-expansion@^2.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
-braces@^1.8.2:
+braces@^2.3.1:
   version "1.8.5"
   resolved "https://registry.npmjs.org/braces/-/braces-1.8.5.tgz"
   dependencies:
@@ -5793,24 +5793,24 @@ loader-runner@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/loader-runner/-/loader-runner-4.2.0.tgz"
 
-loader-utils@^1.4.0:
-  version "1.4.2"
+loader-utils@^3.2.1:
+  version "3.2.1"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.2.tgz#29a957f3a63973883eb684f10ffd3d151fec01a3"
   dependencies:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
-loader-utils@^2.0.0:
-  version "2.0.2"
+loader-utils@^3.2.1:
+  version "3.2.1"
   resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz"
   dependencies:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-loader-utils@^3.2.0:
-  version "3.2.0"
+loader-utils@^3.2.1:
+  version "3.2.1"
   resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-3.2.0.tgz"
 
 locate-path@^2.0.0:
